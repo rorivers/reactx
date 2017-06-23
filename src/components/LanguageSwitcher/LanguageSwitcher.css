@@ -1,0 +1,46 @@
+/**
+ * Copyright
+ */
+
+@import '../variables.css';
+
+.root {
+  background-color: #2d2d2d;
+}
+
+.container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  text-align: right;
+}
+
+.container::before,
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* phone [min ~ 480px) */
+@media screen and (max-width: 480px) {
+  .container {
+    text-align: center;
+  }
+}
+
+.item {
+  margin: 0 0.625rem;
+  font-size: 0.875rem;
+  line-height: 2;
+  color: #a5a19f;
+  text-decoration: none;
+}
+
+.current {
+  color: white;
+  text-decoration: none;
+}
+
+a.item:hover {
+  text-decoration: underline;
+}

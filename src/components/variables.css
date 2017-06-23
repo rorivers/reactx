@@ -1,0 +1,28 @@
+/**
+ * Copyright
+ */
+
+:root {
+  /*
+   * Typography
+   * ======================================================================== */
+  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+
+  /*
+   * Layout
+   * ======================================================================== */
+  --max-content-width: 1200px;
+
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+  --screen-xs-min: 480px;  /* Extra small screen / phone */
+  --screen-sm-min: 768px;  /* Small screen / tablet */
+  --screen-md-min: 992px;  /* Medium screen / desktop */
+  --screen-lg-min: 1200px; /* Large screen / wide desktop */
+}
+
+@custom-media --viewport-xs (min-width: 480px);
+@custom-media --viewport-sm (min-width: 768px);
+@custom-media --viewport-md (min-width: 1024px);
+@custom-media --viewport-lg (min-width: 1280px);

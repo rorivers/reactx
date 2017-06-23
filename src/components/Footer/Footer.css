@@ -1,0 +1,19 @@
+/**
+ * Copyright
+ */
+
+@import '../variables.css';
+
+.root {
+  background-color: #2d2d2d;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: var(--max-content-width);
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}

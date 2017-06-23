@@ -1,0 +1,123 @@
+/**
+ * personal info
+ *
+ * @version 0.0.1
+ * @author  RoRivers
+ * @date    2016/10/12
+ *
+ */
+
+@import '../../components/variables.css';
+
+/* lt 480px */
+.articlePanel {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* 480px */
+@media screen and (--viewport-xs) {
+  .articlePanel {
+    box-sizing: border-box;
+  }
+}
+
+/* 768px */
+@media screen and (--viewport-sm) {
+  .articlePanel {
+    box-sizing: border-box;
+  }
+}
+
+/* 1024px */
+@media screen and (--viewport-md) {
+  .articlePanel {
+    box-sizing: border-box;
+    max-width: 41.875rem;
+    padding: 0;
+  }
+}
+
+/* 1280px */
+@media screen and (--viewport-lg) {
+  .articlePanel {
+    box-sizing: border-box;
+    max-width: 41.875rem;
+    padding: 0;
+  }
+}
+
+.articleTitle {
+  margin: 0.75em 0 0.5em;
+  font-size: 1.375rem;
+  color: black;
+}
+
+.articleH3 {
+  font-size: 1rem;
+  color: #666;
+}
+
+.articleH3Sub {
+  margin-left: 0.625rem;
+  color: #666;
+  font-weight: normal;
+}
+
+.p {
+  line-height: 1.75;
+  font-size: 1rem;
+  color: black;
+}
+
+.jobTitle {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.dl {
+  margin: 1.625rem 0;
+}
+
+.dt {
+  margin: 1.625rem 0 0.75rem;
+  font-size: 1rem;
+  color: black;
+}
+
+.dd {
+  position: relative;
+  margin-left: 2rem;
+  line-height: 1.75;
+  font-size: 1rem;
+  color: black;
+}
+
+.dd::before {
+  position: absolute;
+  top: 0;
+  left: -2rem;
+  content: '\25c6';
+  color: black;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 0.875rem;
+  margin-top: 0.875rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  line-height: 2;
+  vertical-align: middle;
+  border-radius: 1rem;
+  background-color: #eee;
+  color: black;
+}
+
+.img {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+}

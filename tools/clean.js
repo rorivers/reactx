@@ -5,7 +5,7 @@ import { cleanDir } from './lib/fs';
  * cleans up the output (build) directory.
  */
 function clean() {
-  return Promise.all(
+  return Promise.all([
     cleanDir('build/*', {
       nosort: true,
       dot: true,
@@ -17,7 +17,7 @@ function clean() {
       dot: true,
       ignore: ['build/public/.git'],
     }),
-  );
+  ]);
 }
 
 export default clean;

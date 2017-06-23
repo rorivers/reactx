@@ -1,0 +1,115 @@
+/**
+ * personal info
+ *
+ * @version 0.0.1
+ * @author  RoRivers
+ * @date    2016/10/12
+ *
+ */
+
+.container {
+  background-color: #f6f7f7;
+}
+
+.headerPanel {
+  padding-top: 5rem;
+}
+
+.headerImgWrapper {
+  position: relative;
+  width: 13.125rem;
+  height: 13.125rem;
+  margin: 0 auto;
+}
+
+.headerImg {
+  width: 13.125rem;
+  height: 13.125rem;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/header01.jpg);
+}
+
+.headerFlag {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: solid 0.25rem  #f6f7f7;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/flag-china.png);
+}
+
+.myName {
+  margin-top: 3.125rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.jobTitle {
+  margin-top: 0.9375rem;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #6f6a68;
+}
+
+.residence {
+  margin: 2.25rem 0 3rem;
+  height: 1.25rem;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 1.25;
+  vertical-align: top;
+}
+
+.iconLocation {
+  display: inline-block;
+  margin-right: 0.125rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  vertical-align: top;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url(./img/location01.png);
+}
+
+.personalSummary {
+  width: 100%;
+  border-top: 0.125rem solid #e6e5e5;
+  border-bottom: 0.125rem solid #e6e5e5;
+}
+
+.personalSummary td {
+  width: 33.333%;
+  height: 8.125rem;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.personalSummaryYear,
+.personalSummaryExperience {
+  width: 33.333%;
+  height: 8.125rem;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1rem;
+  border-right: 0.125rem solid #e6e5e5;
+}
+
+.sumaryStrong {
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1.5;
+}

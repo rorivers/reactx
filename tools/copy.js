@@ -5,7 +5,7 @@ import pkg from '../package.json';
 
 async function copy() {
   await makeDir('build');
-  await Promise.all(
+  await Promise.all([
     writeFile('build/package.json', JSON.stringify({
       private: true,
       engines: pkg.engines,
@@ -18,7 +18,7 @@ async function copy() {
     copyDir('src/content', 'build/content'),
     copyDir('src/public', 'build/public'),
     copyDir('src/messages', 'build/messages'),
-  );
+  ]);
 
   if (process.argv.includes('--watch')) {
     const watcher = await new Promise((resolve, reject) => {

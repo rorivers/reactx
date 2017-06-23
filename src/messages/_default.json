@@ -1,0 +1,20 @@
+[
+  {
+    "id": "home.title",
+    "defaultMessage": "Come on, guy!",
+    "message": "",
+    "description": "",
+    "files": [
+      "routes/home/Home.js"
+    ]
+  },
+  {
+    "id": "home.content",
+    "defaultMessage": "She glanced quickly around the crowded room and plumped down on the only available chair.",
+    "message": "",
+    "description": "",
+    "files": [
+      "routes/home/Home.js"
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+/**
+ * Copyright
+ */
+
+@import '../../components/variables.css';
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container::before,
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*
+ * Responsive
+ * ========================================================================== */
+
+/* phone [min ~ 480px) */
+.aside {
+  box-sizing: border-box;
+}
+
+.main {
+  box-sizing: border-box;
+  background-color: #fafefe;
+}
+
+/* pad [480px ~ 768px) */
+@media screen and (--viewport-xs) {
+  .aside {
+    box-sizing: border-box;
+  }
+
+  .main {
+    box-sizing: border-box;
+  }
+}
+
+/* x-pad [768px ~ 1024px) */
+@media screen and (--viewport-sm) {
+  .aside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 26.8rem;
+  }
+
+  .main {
+    box-sizing: border-box;
+    margin-left: 26.8rem;
+    float: left;
+  }
+
+  .linksContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 26.8rem;
+  }
+}
+
+/* pc [1024px ~ 1280px) */
+@media screen and (--viewport-md) {
+  .container {
+    width: 100rem;
+  }
+
+  .aside {
+    position: relative;
+    box-sizing: border-box;
+    width: 30rem;
+    float: left;
+  }
+
+  .main {
+    box-sizing: border-box;
+    width: 70rem;
+    float: left;
+    margin-left: auto;
+  }
+
+  .linksContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30rem;
+  }
+}
+
+/* x-pc [1280px ~ max) */
+@media screen and (--viewport-lg) {
+  .container {
+    width: 120rem;
+  }
+
+  .aside {
+    position: relative;
+    box-sizing: border-box;
+    width: 40rem;
+    float: left;
+  }
+
+  .main {
+    box-sizing: border-box;
+    width: 80rem;
+    float: left;
+    margin-left: auto;
+  }
+
+  .linksContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40rem;
+  }
+}

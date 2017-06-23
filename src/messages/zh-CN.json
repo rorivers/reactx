@@ -1,0 +1,477 @@
+[
+  {
+    "id": "personalInfo.name",
+    "defaultMessage": "Rovert Rivers",
+    "message": "江 飞翔",
+    "description": "",
+    "files": [
+      "modules/PersonalInfo/PersonalInfo.js"
+    ]
+  }
+  ,{
+    "id": "personalInfo.jobTitle",
+    "defaultMessage": "F2E Coder",
+    "message": "前段工程师",
+    "description": "",
+    "files": [
+      "modules/PersonalInfo/PersonalInfo.js"
+    ]
+  }
+  ,{
+    "id": "personalInfo.location",
+    "defaultMessage": "Shanghai, China",
+    "message": "中国 上海",
+    "description": "",
+    "files": [
+      "modules/PersonalInfo/PersonalInfo.js"
+    ]
+  }
+  ,{
+    "id": "personalInfo.unit.age",
+    "defaultMessage": "y/o",
+    "message": "岁",
+    "description": "personal info",
+    "files": [
+      "modules/PersonalInfo/PersonalInfo.js"
+    ]
+  }
+  ,{
+    "id": "personalInfo.unit.exprience",
+    "defaultMessage": "y/exprience",
+    "message": "年经验",
+    "description": "personal info",
+    "files": [
+      "modules/PersonalInfo/PersonalInfo.js"
+    ]
+  }
+  ,{
+    "id": "personalInfo.unit.project",
+    "defaultMessage": "projects developed",
+    "message": "个项目",
+    "description": "personal info",
+    "files": [
+      "modules/PersonalInfo/PersonalInfo.js"
+    ]
+  }
+
+  ,{
+    "id": "nav.aboutme",
+    "defaultMessage": "about me",
+    "message": "关于本人",
+    "description": "navgation",
+    "files": [
+      "modules/Navigation/Navigation.js"
+    ]
+  }
+  ,{
+    "id": "nav.education",
+    "defaultMessage": "education",
+    "message": "教育经历",
+    "description": "navgation",
+    "files": [
+      "modules/Navigation/Navigation.js"
+    ]
+  }
+  ,{
+    "id": "nav.work",
+    "defaultMessage": "work exprience",
+    "message": "工作经验",
+    "description": "navgation",
+    "files": [
+      "modules/Navigation/Navigation.js"
+    ]
+  }
+  ,{
+    "id": "nav.skills",
+    "defaultMessage": "skills",
+    "message": "专业技能",
+    "description": "navgation",
+    "files": [
+      "modules/Navigation/Navigation.js"
+    ]
+  }
+
+  ,{
+    "id": "links.question",
+    "defaultMessage": "Interested in working with me?",
+    "message": "希望咱们一起共事？",
+    "description": "links",
+    "files": [
+      "modules/Links/Links.js"
+    ]
+  }
+  ,{
+    "id": "links.answer",
+    "defaultMessage": "Awesome! I'm available for full-time or freelance opportunities.",
+    "message": "好消息！我正在寻找一份全职或自由职业的工作！",
+    "description": "links",
+    "files": [
+      "modules/Links/Links.js"
+    ]
+  }
+  ,{
+    "id": "links.list.title",
+    "defaultMessage": "Get in touch",
+    "message": "联系方式",
+    "description": "links",
+    "files": [
+      "modules/Links/Links.js"
+    ]
+  }
+
+  ,{
+    "id": "time.split",
+    "defaultMessage": "to",
+    "message": "至",
+    "description": "time split",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+
+  ,{
+    "id": "content.aboutme.title",
+    "defaultMessage": "About Me",
+    "message": "关于本人",
+    "description": "about me",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.aboutme.desc",
+    "defaultMessage": "Hi there! I’m a global citizen passionate about people, stories and technology. You’ll find me creating where they intersect, transforming ideas into digital products that people love to interact with. I’m focused on supporting entrepreneurs, startups and agencies around the world to achieve successful interactive design projects involving Web, Mobile and Responsive experiences. My designs are a mix of passion, expertise and experiences that I combine to deliver exceptional outcomes. I also love to research social media marketing, conversion ratio optimisation and psychological/emotional triggers. I’ll always have interesting things to talk about over a cup of coffee. ;)",
+    "message": "你好！我是一名全职开发人员！",
+    "description": "about me",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.aboutme.summary.1",
+    "defaultMessage": "Passion for building engaging user experiences;",
+    "message": "牛逼点1",
+    "description": "about me",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.aboutme.summary.2",
+    "defaultMessage": "Ability to conceive and transform rough concepts into intuitive and beautiful interfaces;",
+    "message": "牛逼点2",
+    "description": "about me",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.aboutme.summary.3",
+    "defaultMessage": "Perpetual student of clean UI/UX standards/best practices;",
+    "message": "牛逼点3",
+    "description": "about me",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.aboutme.summary.4",
+    "defaultMessage": "User-centered approach.",
+    "message": "牛逼点4",
+    "description": "about me",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.aboutme.language.title",
+    "defaultMessage": "Languages I speak",
+    "message": "语言",
+    "description": "about me",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+
+  ,{
+    "id": "content.education.title",
+    "defaultMessage": "Education",
+    "message": "教育经历",
+    "description": "content education",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.education.no1.school.name",
+    "defaultMessage": "Google University",
+    "message": "谷歌大学",
+    "description": "content education",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.education.no1.starttime",
+    "defaultMessage": "2008.9",
+    "message": "2008.9",
+    "description": "content education",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.education.no1.endtime",
+    "defaultMessage": "2012.6",
+    "message": "2012.6",
+    "description": "content education",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.education.no1.desc",
+    "defaultMessage": "While my education life has started through different institutions in Italy, I end up making my way in the world in the self-education by following the most influential people in the industry. I believe the web has made the self-taught option more accessible, but experience a combination of both was a great approach to consolidate my theory knowledge and build expertise not taught in colleges, be always up-to-date with the latest trends and develop the ability to process on the fly as well the instinct to step up to lead when it’s necessary.",
+    "message": "在谷歌大学里，主修计算机科学专业。取得良好成绩！",
+    "description": "content education",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+
+  ,{
+    "id": "content.work.title",
+    "defaultMessage": "Work Experience",
+    "message": "工作经验",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.work.no1.company",
+    "defaultMessage": "Pickevent.com",
+    "message": "Pickevent.com",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.work.no1.starttime",
+    "defaultMessage": "2012.7",
+    "message": "2012.7",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.work.no1.endtime",
+    "defaultMessage": "present",
+    "message": "今",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.work.no1.job",
+    "defaultMessage": "Founding Member and Lead UI/UX Designer",
+    "message": "核心人员、设计组长",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.work.no1.desc",
+    "defaultMessage": "Pickevent is an events network focused on connecting attendees, speakers and event organisers. I’ve been working on this startup in collaboration with a small international team on all UX-related tasks that cover the whole product’s life-cycle including business analysis, information architecture, content strategy, prototyping and usability test.",
+    "message": "这个公司是一家。。。。我干嘛干嘛了。。。。",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.work.no1.summary.1",
+    "defaultMessage": "Main responsibilities also include;",
+    "message": "主要工作1",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.work.no1.summary.2",
+    "defaultMessage": "Manage product design, UX and branding;",
+    "message": "主要工作2",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.work.no1.summary.3",
+    "defaultMessage": "Building wireframes, mockups and UI elements;",
+    "message": "主要工作3",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.work.no1.summary.4",
+    "defaultMessage": "Track and analyse competitors, craft messaging and track product’s positioning.",
+    "message": "主要工作4",
+    "description": "work experiences",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+
+  ,{
+    "id": "content.skills.title",
+    "defaultMessage": "Skills and Personal Attributes",
+    "message": "专业技能和标签",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.1",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.2",
+    "defaultMessage": "Photoshop",
+    "message": "HTML5",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.3",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.4",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.5",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.6",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.7",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.8",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.9",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.10",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.11",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.12",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.13",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.14",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+  ,{
+    "id": "content.skills.tag.15",
+    "defaultMessage": "Photoshop",
+    "message": "Photoshop",
+    "description": "content of skills",
+    "files": [
+      "modules/Articles/Articles.js"
+    ]
+  }
+]

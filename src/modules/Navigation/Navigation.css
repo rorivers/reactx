@@ -1,0 +1,96 @@
+/**
+ * personal info
+ *
+ * @version 0.0.1
+ * @author  RoRivers
+ * @date    2016/10/12
+ *
+ */
+.root {
+  width: 100%;
+  min-height: 45rem;
+}
+
+.rootFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18.75rem;
+}
+
+.container {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .root {
+    display: none;
+    visibility: none;
+  }
+}
+
+.a {
+  display: block;
+  padding: 1rem 0;
+  border-bottom: 0.0625rem solid #dfdedd;
+  line-height: 3.125rem;
+  vertical-align: middle;
+  font-size: 1.375rem;
+  color: #a5a19f;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.a > i {
+  display: inline-block;
+  margin: 0 1rem 0 1.875rem;
+  width: 2.5rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  vertical-align: top;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.iconAboutme {
+  background-image: url(./img/i-aboutme.png);
+}
+
+.iconEdu {
+  background-image: url(./img/i-edu.png);
+}
+
+.iconWork {
+  background-image: url(./img/i-work.png);
+}
+
+.iconSkills {
+  background-image: url(./img/i-skills.png);
+}
+
+.current {
+  background-color: #f6f7f7;
+  color: black;
+}
+
+.a:hover {
+  background-color: #f6f7f7;
+  color: black;
+}
+
+.a:hover > .iconAboutme {
+  background-image: url(./img/i-aboutme-current.png);
+}
+
+.a:hover > .iconEdu {
+  background-image: url(./img/i-edu-current.png);
+}
+
+.a:hover > .iconWork {
+  background-image: url(./img/i-work-current.png);
+}
+
+.a:hover > .iconSkills {
+  background-image: url(./img/i-skills-current.png);
+}

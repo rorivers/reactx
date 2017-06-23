@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <RoRivers> -- <coder> -- <developjava@163.com>
+
+# THANKS
+
+    <everyone>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript
+    React, Flux, SuperAgent
